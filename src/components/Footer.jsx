@@ -50,10 +50,10 @@ const Footer = () => {
       </div>
 
       <div className=" w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#white]">
-        <p className="text-black font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+        <p className="text-black font-poppins font-normal text-center text-[18px] leading-[27px] text-white font-sans">
           Copyright Ⓒ 2023 ENVI-COMM CORP. All Rights Reserved.
         </p>
-
+        <p></p>               
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
             <img

@@ -11,7 +11,7 @@ const App = () => (
         </div>
       </div>
       
-      <div style={{ background: '#404041' }}>
+      <div style={{ background: '#547326' }}>
         <div className={`bg-gradient ${styles.flexStart}`} >
           <div className={`${styles.boxWidth}`}>
             <Hero />
